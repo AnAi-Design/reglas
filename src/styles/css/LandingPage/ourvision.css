@@ -1,0 +1,60 @@
+.our-vision-title{
+    font-size: var(--size-2xl);
+}
+
+.our-vision-description{
+    font-size: var(--size-sm);
+    max-width: 60ch;
+}
+
+.our-vision_img-area{
+    padding-bottom: 1rem;
+}
+
+/*xs*/
+/* @media(min-width: 475px){} */
+
+/*sm*/
+/* @media(min-width: 640px){} */
+
+/*md*/
+@media(min-width: 768px){
+    .our-vision-title{
+        font-size: var(--size-2xl);
+    }
+    
+    .our-vision-description{
+        font-size: var(--size-sm);
+    }
+
+    .our-vision-content{
+        display: flex;
+        flex-direction: column;
+        place-content: center;
+    }
+    
+    .our-vision_img-area{
+        padding-bottom: 0rem;
+    }
+}
+
+/*lg*/
+@media(min-width: 1024px){
+    .our-vision-title{
+        font-size: var(--size-3xl);
+    }
+    
+    .our-vision-description{
+        font-size: var(--size-base);
+    }
+}
+
+/*xl*/
+@media(min-width: 1280px){
+    .our-vision-title{
+        font-size: var(--size-4xl);
+    }
+}
+
+/*sxl*/
+/* @media(min-width: 1536px){} */
