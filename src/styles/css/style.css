@@ -22,6 +22,8 @@
     --color-dark: #070a13;
     --color-light: #f1f5f9;
 
+    --color-zinc900: #18181B;
+
     /*sky600: rgb(2, 132, 199)*/
     /*rose800: rgb(159, 18, 57)*/
 
@@ -53,8 +55,8 @@ html{
 }
 
 body{
-    background-color: var(--color-light);
-    color: var(--color-dark);
+    background-color: var(--color-dark);
+    color: var(--color-light);
 }
 
 .pt-2rem{
@@ -111,13 +113,18 @@ button{
 }
 
 /*lg*/
-/* @media(min-width: 1024px){} */
+@media(min-width: 1024px){
+    .section{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}
 
 /*xl*/
 @media(min-width: 1280px){
     .section{
-        padding-top: 4rem;
-        padding-bottom: 4rem;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
     }
 }
 
