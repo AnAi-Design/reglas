@@ -17,6 +17,19 @@
     margin: 0 auto;
 }
 
+.our-product-points{
+    display: flex;
+    gap: 1rem;
+    place-content: center;
+}
+
+.our-product-item{
+    background-color: var(--color-zinc900);
+    padding: 2rem;
+    width: 18.75rem;
+    border-radius: 0.5rem;
+}
+
 .our-product-item h4{
     font-weight: 700;
     font-size: var(--size-lg);
