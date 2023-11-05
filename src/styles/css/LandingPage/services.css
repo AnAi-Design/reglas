@@ -14,6 +14,18 @@
     padding-bottom: 2rem;
 }
 
+.services-container{
+    display: flex;
+    gap: 1rem;
+    place-content: center;
+}
+
+.services-card{
+    background-color: var(--color-zinc900);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
 .service-item_title{
     font-size: var(--size-base);
     font-weight: 700;
