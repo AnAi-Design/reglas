@@ -26,6 +26,10 @@
     border-radius: 0.5rem;
 }
 
+.service-item_icon{
+    width: 64px;
+}
+
 .service-item_title{
     font-size: var(--size-base);
     font-weight: 700;

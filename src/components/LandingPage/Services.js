@@ -3,6 +3,8 @@ import { Col } from "react-bootstrap"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 
+import Service1 from "../../images/services/Compliance Companion Icons-01.svg"
+
 const Services = () => {
   return (
     <>
@@ -20,6 +22,7 @@ const Services = () => {
           <div>
             <Row className="services-container">
               <Col className="services-card" md={4} lg={3}>
+                <img className = "service-item_icon" src = {Service1}></img>
                 <h4 className="service-item_title">Scans</h4>
                 <p className="service-item_description">
                   We continuously monitor the regulatory horizon, including
