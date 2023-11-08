@@ -3,7 +3,13 @@ import { Col } from "react-bootstrap"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 
-import Service1 from "../../images/services/Compliance Companion Icons-01.svg"
+import Service1 from "../../images/services/Compliance Companion Icons_Prw02_01.svg"
+import Service2 from "../../images/services/Compliance Companion Icons_Prw02_02.svg"
+import Service3 from "../../images/services/Compliance Companion Icons_Prw02_03.svg"
+import Service4 from "../../images/services/Compliance Companion Icons_Prw02_04.svg"
+import Service5 from "../../images/services/Compliance Companion Icons_Prw02_05.svg"
+import Service6 from "../../images/services/Compliance Companion Icons_Prw02_06.svg"
+import Service7 from "../../images/services/Compliance Companion Icons_Prw02_07.svg"
 
 const Services = () => {
   return (
@@ -22,7 +28,7 @@ const Services = () => {
           <div>
             <Row className="services-container">
               <Col className="services-card" md={4} lg={3}>
-                <img className = "service-item_icon" src = {Service1}></img>
+                <img className="service-item_icon" src={Service1}></img>
                 <h4 className="service-item_title">Scans</h4>
                 <p className="service-item_description">
                   We continuously monitor the regulatory horizon, including
@@ -30,6 +36,7 @@ const Services = () => {
                 </p>
               </Col>
               <Col className="services-card" md={4} lg={3}>
+                <img className="service-item_icon" src={Service3}></img>
                 <h4 className="service-item_title">Organises</h4>
                 <p className="service-item_description">
                   We categorise obligations thematically, eliminating repetitive
@@ -37,6 +44,7 @@ const Services = () => {
                 </p>
               </Col>
               <Col className="services-card" md={4} lg={3}>
+                <img className="service-item_icon" src={Service5}></img>
                 <h4 className="service-item_title">Action Plans</h4>
                 <p className="service-item_description">
                   We continuously monitor the regulatory horizon, including
@@ -44,6 +52,7 @@ const Services = () => {
                 </p>
               </Col>
               <Col className="services-card" md={4} lg={3}>
+                <img className="service-item_icon" src={Service7}></img>
                 <h4 className="service-item_title">Always Updated</h4>
                 <p className="service-item_description">
                   Regulations change. When they do, we update your obligation
@@ -51,6 +60,7 @@ const Services = () => {
                 </p>
               </Col>
               <Col className="services-card" md={4} lg={3}>
+                <img className="service-item_icon" src={Service2}></img>
                 <h4 className="service-item_title">Reports</h4>
                 <p className="service-item_description">
                   Stay informed about your compliance status with clear and
@@ -58,6 +68,7 @@ const Services = () => {
                 </p>
               </Col>
               <Col className="services-card" md={4} lg={3}>
+                <img className="service-item_icon" src={Service4}></img>
                 <h4 className="service-item_title">Integration</h4>
                 <p className="service-item_description">
                   Seamlessly connect Reglas to your enterprise risk management
@@ -65,6 +76,7 @@ const Services = () => {
                 </p>
               </Col>
               <Col className="services-card" md={4} lg={3}>
+                <img className="service-item_icon" src={Service6}></img>
                 <h4 className="service-item_title">Ready Submissions</h4>
                 <p className="service-item_description">
                   With Reglas, be ever-ready with regulatory certifications fit
